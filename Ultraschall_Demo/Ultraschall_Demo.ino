@@ -7,7 +7,7 @@ Ultraschallsensors.
 */
 
 #include "Ultraschall.h"
-Ultraschall Mein_Sensor; /*an Stelle von "Sensor_Demo" kann beliebiger Name stehen (dort kann der
+Ultraschall Mein_Sensor; /*an Stelle von "Mein_Sensor" kann beliebiger Name stehen (dort kann der
                             Sensor benannt werden, dies muss jedoch auch im .getEntfernung - Befehl beachtet werden)*/
 void setup() {
   Serial.begin(9600);
